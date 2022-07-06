@@ -1,6 +1,6 @@
 
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Heebo', sans-serif;
     box-sizing:border-box;
     margin:0;
     padding:0;
@@ -13,19 +13,22 @@
 }
 .main-header h1{
     text-align: center;
-    color:lawngreen;
+    color:white;
     padding-top: 120px;
+    font-size:45px;
+
 }
 .main-header p{
     text-align: center;
-    color:lawngreen;
-    padding-top: 50px;
+    color:white;
+    padding-top: 40px;
+    font-size:20px;
 }
-.link-button{
+.link-button1{
     text-align: center;
     padding-top: 70px;
 }
-.link-button a{
+.link-button1 a{
     color:gold;
     text-decoration: none;
     background-image: linear-gradient(orange ,tomato);
@@ -46,7 +49,7 @@
 .money-option ul{
     text-decoration:none;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 80px;
     list-style: none;
 }
 .money-option li{
@@ -92,7 +95,7 @@ input {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
@@ -100,3 +103,164 @@ input {
   .submit-button{
       text-align: center;
   }
+  .Donation-plan h1{
+      text-align: center;
+      padding-top: 100px;
+  }
+  .Donation-plan p{
+      text-align: center;
+      padding-top: 20px;
+  }
+.test h1{
+ text-align: center;
+ margin-top: 110px;
+}
+.test p{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#wrap{
+    
+    display:flex;
+    padding-top:2%;
+    overflow: hidden;
+    color: #0B0D17;
+}
+.col1,.col2,.col3{
+    width:28%;
+    padding:1.5%;
+    margin-bottom: 2%;
+    
+    height: 300px;
+}
+#col1{
+    background-color:#EDF5F6;
+    margin-left: 9%;
+    }
+#col1 h3 {
+    padding-top: 20px; 
+    color:green;
+}  
+#col1 p{
+    text-align: justify;
+}
+#col2 h3{
+    padding-top:14px; 
+    color:green;
+}
+#col2 p{
+    text-align: justify;
+}
+#col3 h3{
+    padding-top: 20px; 
+    color:green;
+}
+#col3 p{
+    text-align: justify;
+}
+#col2{
+    background-color:#FFEEEE;
+    margin-left: 2%;
+    margin-right:2%; 
+	}
+#col3{
+    background-color:#FFF4D6;
+    margin-right: 9%;
+    }
+img{
+    width: 50px;
+}
+.icon{
+  padding-top: 20px; 
+  text-align: left;
+}
+.deprived-food{
+    display: flex;
+    margin-bottom: 150px;
+    margin-left: 60px;
+  }
+  .half-width{
+    width: 50%;
+    padding-left: 55px;
+  }
+  .half-width h1{
+      color:#FF5B5B;
+      margin-top: 60px;
+  }
+  .half-width h2{
+      margin-bottom: 20px;
+      margin-top:25px;
+  }
+  .half-width p{
+      margin-bottom: 35px;
+      text-align: justify;
+      margin-right: 60px;
+  }
+  .half-width img{
+     width:75%; 
+     padding-left: 14%;
+     height: 94%;
+     margin-top: 50px;
+  }
+  .link-button2{
+    text-decoration: none;
+    background-image: linear-gradient(orange ,tomato);
+    background-color: brown;
+    padding: 15px 40px;
+    margin-top:60px;
+    font-weight: 700;
+    color: aquamarine;
+    border-radius: 10px;
+  }
+  
+  .deprived-shelter{
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: right;
+   }
+
+.update-part h1{
+    margin-top: 100px;
+ text-align: center;
+}
+.update-part p{
+    margin-top: 25px;
+    text-align: center;
+}
+.email-container{
+    width:50%;
+    margin-left:350px;
+    margin-top: 40px;
+    padding: 32px;
+    margin-bottom: 10px;
+    background-color: #FFF4D6;
+    padding-top: 65px;
+    padding-left: 0px;
+}
+.button_1{
+    padding:13px 25px;
+    background:#FF5959;
+    border: 1px solid #FF5959;
+    border-radius: 3px;
+    color:#ffffff;
+  }
+  #email-box input{
+    color:red;
+    padding:13px 25px;
+    border-radius: 3px; 
+    border: 1px solid #D9D9D9;
+    background: transparent;
+    background-color: #D9D9D9;
+} 
+.footer-section{
+    width:100%;
+    text-align: center;
+    margin-top: 80px;
+    background-color: #0B0D17;
+    color:#FF5B5B;
+    padding: 35px;
+}
+.footer-section p{
+    padding-top: 15px;
+}
